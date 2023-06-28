@@ -1,12 +1,4 @@
 // materialize
-document.addEventListener('DOMContentLoaded', function () {
-  M.AutoInit();
-});
-document.addEventListener('DOMContentLoaded', function () {
-  var elems = document.querySelectorAll('.sidenav');
-  var instances = M.Sidenav.init(elems);
-});
-
 // texto animado con typed
 const typed = new Typed('.typed', {
   strings: [
@@ -34,17 +26,15 @@ const typed = new Typed('.typed', {
 });
 
 // filtrar y mostrar productos
+const cardListaProductos = document.querySelector('.lista-productos');
+const seleccionCategoria = document.querySelector('#categoria');
 const getInfoProducto = async () => {
   const response = await fetch('../db.json');
   return response.json();
 };
 
 const iniciarApp = async () => {
-  const cardsInfo = await getInfoProducto();
-  console.log(cardsInfo);
-  // filtarCategoria(cardsInfo);
-  // filtarProductoCategoria(cardsInfo);
-  renderCards(cardsInfo);
+  renderizarProductosPorCategoria();
 };
 const crearCard = (data) => {
   const { descripcion, referencia, imagen, categoria } = data;
@@ -56,51 +46,48 @@ const crearCard = (data) => {
         src="${imagen}"
         alt=""
       />
-      <h2>Ref: ${referencia}</h2>
+      <h2 data-categoria${categoria}>Ref: ${referencia}</h2>
       <p>${descripcion}</p>
      </div>
   </div>
             `;
-  const cardListaProductos = document.querySelector('.lista-productos');
   cardListaProductos.insertAdjacentHTML('beforeend', cardTemplate);
 };
-const renderCards = (cardsInfo) => {
+const renderizarProductos = (cardsInfo) => {
   for (var i = 0; i < cardsInfo.length; i++) {
     crearCard(cardsInfo[i]);
   }
+
+  M.AutoInit();
 };
-const seleccionCategoria = document.querySelector('#categoria');
 let opcionEligida = seleccionCategoria.addEventListener('change', (e) => {
   opcionEligida = e.target.value;
   // console.log(opcionEligida);
+  renderizarProductosPorCategoria();
   return opcionEligida;
 });
-iniciarApp();
-console.log(opcionEligida);
+console.log(seleccionCategoria.value);
 // console.log(seleccionCategoria);
 
-// function filtarProductoCategoria(arrayProducto) {
-//   let productoFiltrado = arrayProducto.filter(
-//     (producto) => producto.categoria === 'pijamas'
-//   );
-//   renderCards(productoFiltrado);
-//   console.log(productoFiltrado);
-// }
-
-// function filtarProductoCategoria(arrayProducto) {
-//   switch (opcionEligida) {
-//     case 'personalizadas':
-//       let productoFiltrado = arrayProducto.filter(
-//         (producto) => producto.categoria === 'personalizadas'
-//       );
-//       console.log(productoFiltrado);
-//       break;
-
-//     default:
-//       break;
-//   }
-//   let productoFiltrado = arrayProducto.filter(
-//     (producto) => producto.categoria === opcionSelect
-//   );
-//   console.log(productoFiltrado);
-// }
+function filtrarProductosCategoria({ productos, categoria }) {
+  let productosFiltrados = [];
+  if (categoria !== 'todo') {
+    productosFiltrados = productos.filter(
+      (producto) => producto.categoria === categoria
+    );
+  } else {
+    productosFiltrados = productos;
+  }
+  return productosFiltrados;
+}
+async function renderizarProductosPorCategoria() {
+  cardListaProductos.innerHTML = '';
+  const productos = await getInfoProducto();
+  const productosFiltrados = filtrarProductosCategoria({
+    productos,
+    categoria: seleccionCategoria.value,
+  });
+  // console.log(cardsInfo);
+  renderizarProductos(productosFiltrados);
+}
+iniciarApp();
