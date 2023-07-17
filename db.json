@@ -2,289 +2,289 @@
   {
     "referencia": "5056",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5056.png",
+    "imagen": "./src/assests/image/5056.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5057",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5057.png",
+    "imagen": "./src/assests/image/5057.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5058",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5058.png",
+    "imagen": "./src/assests/image/5058.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5059",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5059.png",
+    "imagen": "./src/assests/image/5059.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5060",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5060.png",
+    "imagen": "./src/assests/image/5060.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5061",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5061.png",
+    "imagen": "./src/assests/image/5061.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5062",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5062.png",
+    "imagen": "./src/assests/image/5062.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5063",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5063.png",
+    "imagen": "./src/assests/image/5063.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5065",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5065.png",
+    "imagen": "./src/assests/image/5065.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5067",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5067.png",
+    "imagen": "./src/assests/image/5067.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5068",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5068.png",
+    "imagen": "./src/assests/image/5068.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5069",
     "descripcion": "PIJAMAS DAMA (largas)",
-    "imagen": "../src/assests/image/5069.png",
+    "imagen": "./src/assests/image/5069.png",
     "categoria": "dama-larga"
   },
   {
     "referencia": "5557",
     "descripcion": "PIJAMAS DAMA (cortas)",
-    "imagen": "../src/assests/image/5557.png",
+    "imagen": "./src/assests/image/5557.png",
     "categoria": "dama-corta"
   },
   {
     "referencia": "5562",
     "descripcion": "PIJAMAS DAMA (cortas)",
-    "imagen": "../src/assests/image/5562.png",
+    "imagen": "./src/assests/image/5562.png",
     "categoria": "dama-corta"
   },
   {
     "referencia": "5563",
     "descripcion": "PIJAMAS DAMA (cortas)",
-    "imagen": "../src/assests/image/5563.png",
+    "imagen": "./src/assests/image/5563.png",
     "categoria": "dama-corta"
   },
   {
     "referencia": "5564",
     "descripcion": "PIJAMAS DAMA (cortas)",
-    "imagen": "../src/assests/image/5564.png",
+    "imagen": "./src/assests/image/5564.png",
     "categoria": "dama-corta"
   },
   {
     "referencia": "5565",
     "descripcion": "PIJAMAS DAMA (cortas)",
-    "imagen": "../src/assests/image/5565.png",
+    "imagen": "./src/assests/image/5565.png",
     "categoria": "dama-corta"
   },
   {
     "referencia": "5566",
     "descripcion": "PIJAMAS DAMA (cortas)",
-    "imagen": "../src/assests/image/5566.png",
+    "imagen": "./src/assests/image/5566.png",
     "categoria": "dama-corta"
   },
   {
     "referencia": "5570",
     "descripcion": "PIJAMAS DAMA (cortas)",
-    "imagen": "../src/assests/image/5570.png",
+    "imagen": "./src/assests/image/5570.png",
     "categoria": "dama-corta"
   },
   {
     "referencia": "6056",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6056.png",
+    "imagen": "./src/assests/image/6056.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6057",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6057.png",
+    "imagen": "./src/assests/image/6057.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6059",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6059.png",
+    "imagen": "./src/assests/image/6059.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6060",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6060.png",
+    "imagen": "./src/assests/image/6060.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6063",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6063.png",
+    "imagen": "./src/assests/image/6063.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6064",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6064.png",
+    "imagen": "./src/assests/image/6064.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6065",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6065.png",
+    "imagen": "./src/assests/image/6065.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6067",
     "descripcion": "PIJAMAS CABALLERO (largas)",
-    "imagen": "../src/assests/image/6067.png",
+    "imagen": "./src/assests/image/6067.png",
     "categoria": "caballero-larga"
   },
   {
     "referencia": "6555",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6555.png",
+    "imagen": "./src/assests/image/6555.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "6556",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6556.png",
+    "imagen": "./src/assests/image/6556.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "6557",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6557.png",
+    "imagen": "./src/assests/image/6557.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "6558",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6558.png",
+    "imagen": "./src/assests/image/6558.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "6561",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6561.png",
+    "imagen": "./src/assests/image/6561.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "6562",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6562.png",
+    "imagen": "./src/assests/image/6562.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "6565",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6565.png",
+    "imagen": "./src/assests/image/6565.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "6567",
     "descripcion": "PIJAMAS CABALLERO (cortas)",
-    "imagen": "../src/assests/image/6567.png",
+    "imagen": "./src/assests/image/6567.png",
     "categoria": "caballero-corta"
   },
   {
     "referencia": "7055",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7055.png",
+    "imagen": "./src/assests/image/7055.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7056",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7056.png",
+    "imagen": "./src/assests/image/7056.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7057",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7057.png",
+    "imagen": "./src/assests/image/7057.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7059",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7059.png",
+    "imagen": "./src/assests/image/7059.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7060",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7060.png",
+    "imagen": "./src/assests/image/7060.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7061",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7061.png",
+    "imagen": "./src/assests/image/7061.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7062",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7062.png",
+    "imagen": "./src/assests/image/7062.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7064",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7064.png",
+    "imagen": "./src/assests/image/7064.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7065",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7065.png",
+    "imagen": "./src/assests/image/7065.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7066",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7066.png",
+    "imagen": "./src/assests/image/7066.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7067",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7067.png",
+    "imagen": "./src/assests/image/7067.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7068",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7068.png",
+    "imagen": "./src/assests/image/7068.png",
     "categoria": "pijama-niños"
   },
   {
     "referencia": "7069",
     "descripcion": "PIJAMAS NIÑO/AS",
-    "imagen": "../src/assests/image/7069.png",
+    "imagen": "./src/assests/image/7069.png",
     "categoria": "pijama-niños"
   }
 ]
